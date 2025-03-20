@@ -43,7 +43,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FruitList",
+              "Title": "FruitList.csproj",
               "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\FruitList.csproj",
               "RelativeDocumentMoniker": "FruitList\\FruitList.csproj",
               "ToolTip": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\FruitList.csproj",
@@ -87,8 +87,7 @@
               "RelativeToolTip": "FruitList\\Controllers\\FruitController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T04:27:33.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T04:27:33.156Z"
             },
             {
               "$type": "Document",

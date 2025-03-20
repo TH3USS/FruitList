@@ -49,18 +49,10 @@ function App() {
     });
   };
 
-  const changeColor = () => {
-    return document.body.style.backgroundColor = "red";
-  }
-
   return (
     <div className="container">
       <h1>Lista de Frutas</h1>
 
-      {/* Botão de adicionar */}
-      <button className="add-button" onClick={() => changeColor}>
-        cor
-      </button>
       <button className="add-button" onClick={() => setmodalCreateFruit(true)}>
         + Adicionar Fruta
       </button>
