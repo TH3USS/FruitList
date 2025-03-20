@@ -57,7 +57,6 @@ function App() {
         + Adicionar Fruta
       </button>
 
-      {/* Tabela */}
       <table>
         <thead>
           <tr>
@@ -91,7 +90,7 @@ function App() {
         <div className="modal">
           <div className="modal-content">
             <div className="modal-button-close">
-              {/* Botão de fechar */}
+              {/* Close Button */}
               <button
                 className="modal-button close"
                 onClick={() => {
@@ -121,7 +120,7 @@ function App() {
               disabled
             />
 
-            {/* Botões de operação */}
+            {/* Operation Buttons */}
             <div className="modal-buttons">
               <button
                 className="modal-button divide"
@@ -181,7 +180,6 @@ function App() {
               placeholder="Digite outro número"
             />
 
-            {/* Botão de fechar e adicionar */}
             <div className="modal-buttons">
               <button className="modal-button add" onClick={handleAdd}>
                 Adicionar

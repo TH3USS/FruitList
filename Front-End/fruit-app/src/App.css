@@ -4,14 +4,6 @@
   box-sizing: border-box;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
 #root{
   width: 100%;
   display: flex;
