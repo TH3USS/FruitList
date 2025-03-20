@@ -124,7 +124,7 @@ function App() {
             <div className="modal-buttons">
               <button
                 className="modal-button divide"
-                onClick={() => setResult(modalFruit.a / modalFruit.b)}
+                onClick={() => setResult(parseFloat(modalFruit.a / modalFruit.b))}
               >
                 Divisão
               </button>
