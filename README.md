@@ -38,6 +38,52 @@ Além das tecnologias principais, foram utilizadas algumas ferramentas para otim
 ✅ **Visual Studio Code** → IDE para desenvolvimento do frontend.  
 ✅ **Visual Studio** → IDE para desenvolvimento do backend.  
 
+## **Estrutura do Projeto**  
+A seguir é apresentado a organização da estrutura utilizada no projeto, mostrando a disposição dos principais scripts e arquivos:  
+<pre>
+├── Back-End
+    ├── .vs
+    │   ├── FruitList
+    ├── FruitList.sln
+    └── FruitList
+    │   ├── Controllers
+    │       └── FruitController.cs
+    │   ├── Data
+    │       └── ApplicationDbContext.cs
+    │   ├── FruitList.csproj
+    │   ├── FruitList.csproj.user
+    │   ├── FruitList.http
+    │   ├── Models
+    │       └── Fruit.cs
+    │   ├── Program.cs
+    │   ├── Properties
+    │       └── launchSettings.json
+    │   ├── appsettings.Development.json
+    │   ├── appsettings.json
+    │   ├── bin
+    │   └── obj
+├── Front-End
+    ├── Dockerfile
+    ├── fruit-app
+    │   ├── .gitignore
+    │   ├── README.md
+    │   ├── eslint.config.js
+    │   ├── index.html
+    │   ├── package-lock.json
+    │   ├── package.json
+    │   ├── public
+    │   │   └── vite.svg
+    │   ├── src
+    │   │   ├── App.css
+    │   │   ├── App.jsx
+    │   │   ├── assets
+    │   │   │   └── react.svg
+    │   │   ├── index.css
+    │   │   └── main.jsx
+    │   └── vite.config.js
+    └── package-lock.json
+├── README.md
+</pre>
 ---
 
 # **🚀 Conclusão**  
