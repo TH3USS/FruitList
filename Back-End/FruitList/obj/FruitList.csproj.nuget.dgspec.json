@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\FruitList\\FruitList.csproj": {}
+    "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\FruitList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\FruitList\\FruitList.csproj": {
+    "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\FruitList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\FruitList\\FruitList.csproj",
+        "projectUniqueName": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\FruitList.csproj",
         "projectName": "FruitList",
-        "projectPath": "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\FruitList\\FruitList.csproj",
+        "projectPath": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\FruitList.csproj",
         "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\FruitList\\obj\\",
+        "outputPath": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

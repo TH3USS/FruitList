@@ -1,0 +1,29 @@
+
+services:
+  backend:
+    build:
+      context: ./Back-End
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=DESKTOP-D1HU8S9 ;Database=FruitsDB;Persist Security Info=True; Trusted_Connection=True; TrustServerCertificate=True; Integrated Security=True;MultipleActiveResultSets=True;;
+  
+  frontend:
+    build:
+      context: ./Front-End
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"

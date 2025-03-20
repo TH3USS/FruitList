@@ -1,25 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\",
+  "WorkspaceRootPath": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|c:\\users\\matheus\\documents\\projetos\\listadefrutas\\fruitlist\\fruitlist\\controllers\\fruitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|c:\\users\\matheus\\documents\\projetos\\fruitlist\\back-end\\fruitlist\\fruitlist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|solutionrelative:fruitlist\\fruitlist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|c:\\users\\matheus\\documents\\projetos\\fruitlist\\back-end\\fruitlist\\controllers\\fruitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|solutionrelative:fruitlist\\controllers\\fruitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|c:\\users\\matheus\\documents\\projetos\\listadefrutas\\fruitlist\\fruitlist\\fruitlist.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|c:\\users\\matheus\\documents\\projetos\\fruitlist\\back-end\\fruitlist\\fruitlist.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|solutionrelative:fruitlist\\fruitlist.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|c:\\users\\matheus\\documents\\projetos\\listadefrutas\\fruitlist\\fruitlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|c:\\users\\matheus\\documents\\projetos\\fruitlist\\back-end\\fruitlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|solutionrelative:fruitlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|c:\\users\\matheus\\documents\\projetos\\listadefrutas\\fruitlist\\fruitlist\\models\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|c:\\users\\matheus\\documents\\projetos\\fruitlist\\back-end\\fruitlist\\models\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|solutionrelative:fruitlist\\models\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|c:\\users\\matheus\\documents\\projetos\\listadefrutas\\fruitlist\\fruitlist\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|c:\\users\\matheus\\documents\\projetos\\fruitlist\\back-end\\fruitlist\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93CF162F-079A-4B70-80EB-5468B57C6283}|FruitList\\FruitList.csproj|solutionrelative:fruitlist\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,24 +42,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FruitList.http",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\FruitList\\FruitList.http",
-              "RelativeDocumentMoniker": "FruitList\\FruitList.http",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\FruitList\\FruitList.http",
-              "RelativeToolTip": "FruitList\\FruitList.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-03-18T00:02:32.374Z",
+              "DocumentIndex": 0,
+              "Title": "FruitList",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\FruitList.csproj",
+              "RelativeDocumentMoniker": "FruitList\\FruitList.csproj",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\FruitList.csproj",
+              "RelativeToolTip": "FruitList\\FruitList.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-20T05:58:39.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FruitList.http",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\FruitList.http",
+              "RelativeDocumentMoniker": "FruitList\\FruitList.http",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\FruitList.http",
+              "RelativeToolTip": "FruitList\\FruitList.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-18T00:02:32.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\FruitList\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\Program.cs",
               "RelativeDocumentMoniker": "FruitList\\Program.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\FruitList\\Program.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\Program.cs",
               "RelativeToolTip": "FruitList\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -63,11 +79,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FruitController.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\FruitList\\Controllers\\FruitController.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\Controllers\\FruitController.cs",
               "RelativeDocumentMoniker": "FruitList\\Controllers\\FruitController.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\FruitList\\Controllers\\FruitController.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\Controllers\\FruitController.cs",
               "RelativeToolTip": "FruitList\\Controllers\\FruitController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -76,11 +92,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\FruitList\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "FruitList\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\FruitList\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "FruitList\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -88,11 +104,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Fruit.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\FruitList\\Models\\Fruit.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\Models\\Fruit.cs",
               "RelativeDocumentMoniker": "FruitList\\Models\\Fruit.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Projetos\\ListaDeFrutas\\FruitList\\FruitList\\Models\\Fruit.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\Projetos\\FruitList\\Back-End\\FruitList\\Models\\Fruit.cs",
               "RelativeToolTip": "FruitList\\Models\\Fruit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
