@@ -1,0 +1,6 @@
+@FruitList_HostAddress = http://localhost:5258
+
+GET {{FruitList_HostAddress}}/fruits/
+Accept: application/json
+
+###

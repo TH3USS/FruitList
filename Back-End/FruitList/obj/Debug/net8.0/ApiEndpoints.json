@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "FruitList.Controllers.FruitsController",
+    "Method": "GetFruits",
+    "RelativePath": "api/Fruits",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FruitList.Models.Fruit, FruitList, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FruitList.Controllers.FruitsController",
+    "Method": "PostFruit",
+    "RelativePath": "api/Fruits",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fruit",
+        "Type": "FruitList.Models.Fruit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FruitList.Models.Fruit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
