@@ -1,157 +1,177 @@
-# 🍍 Lista de Frutas
-Esse projeto consciste em uma lista de cadastro de frutas desenvolvida com REACT e .NET.
+# 🍍 Fruit List
 
-## **Estrutura do Projeto**  
-> A seguir é apresentado a organização da estrutura utilizada no projeto, mostrando a disposição dos principais scripts e arquivos:  
+This project consists of a fruit registration list developed with REACT and .NET.
+
+## **Project Structure**
+
+> Below is the organization of the structure used in the project, showing the layout of the main scripts and files:
 
 ### Backend
-Para o backend foi desenvolvido uma API ASP.NET que faz o intermedio entre banco de dados e o frontend, a API foi separada em três partes principais, o Model que possui a estrutura da tabela do banco de dados, o Controller que realiza as execuções e códigos, e o ApplicationDbContext que conecta com o banco de dados.
+
+For the backend, an ASP.NET API was developed that acts as an intermediary between the database and the frontend. The API was divided into three main parts: the Model, which holds the database table structure; the Controller, which performs the executions and code; and the ApplicationDbContext, which connects to the database.
 
 <pre>
 ├── Back-End
     ├── .vs
     │   ├── FruitList
     |   │── Controllers/
-    |   │   └── FruitController.cs      # Controlador que define as rotas da API
+    |   │   └── FruitController.cs      # Controller that defines the API routes
     |   │── Models/
-    |   │   └── Fruit.cs                 # Modelo de dados
+    |   │   └── Fruit.cs                 # Data model
     |   │── Data/
-    |   │   └── ApplicationDbContext.cs  # Contexto do banco de dados
-    |   │── Program.cs                   # Configuração principal da API
-    |   └── appsettings.json             # Configurações gerais (inclui a Connection String)
+    |   │   └── ApplicationDbContext.cs  # Database context
+    |   │── Program.cs                   # Main API configuration
+    |   └── appsettings.json             # General settings (includes Connection String)
 </pre>
 
-
 ### Frontend
-Para o frontend foi utilizado Vite para a criação do projeto.
+
+For the frontend, Vite was used to create the project.
 
 <pre>
 ├── Front-End
     ├── fruit-app
     │   frontend/
     │   │── src/
-    │   │   ├── App.css              # Arquivo de estilos
-    │   │   ├── App.jsx              # Componente principal, arquivo para chamadas à API
+    │   │   ├── App.css              # Stylesheet file
+    │   │   ├── App.jsx              # Main component, file for API calls
     │   │   ├── assets
     │   │   │   └── react.svg
     │   │   ├── index.css
     │   │   └── main.jsx
-    │   └── vite.config.js           # Configuração do Vite
-    └── package-lock.json            # Dependências do projeto
-
+    │   └── vite.config.js           # Vite configuration
+    └── package-lock.json            # Project dependencies
 </pre>
----
-
-
-# **🔹 Passo a Passo para Rodar o Projeto**
-
-## **1️⃣ Pré-requisitos**
-Antes de começar, a pessoa precisa ter instalado no sistema:  
-✅ **.NET SDK** → [Download .NET](https://dotnet.microsoft.com/en-us/download)  
-✅ **Node.js + npm** → [Download Node.js](https://nodejs.org/)  
-✅ **Git** (para clonar o projeto) → [Download Git](https://git-scm.com/downloads)  
 
 ---
 
-## **2️⃣ Clonar o Repositório**
-Abra o Git Bash e execute:  
+# **🔹 Step-by-Step to Run the Project**
+
+## **1️⃣ Prerequisites**
+
+Before starting, you need to have installed on your system:
+✅ **.NET SDK** → [Download .NET](https://dotnet.microsoft.com/en-us/download)
+✅ **Node.js + npm** → [Download Node.js](https://nodejs.org/)
+✅ **Git** (to clone the project) → [Download Git](https://git-scm.com/downloads)
+
+---
+
+## **2️⃣ Clone the Repository**
+
+Open Git Bash and run:
+
 ```sh
 git clone https://github.com/TH3USS/FruitList.git
 ```
 
 ---
 
-## **3️⃣ Configurar Banco de Dados**
-- Baixe e instale o **SQL Server Express**.
+## **3️⃣ Configure the Database**
+
+* Download and install **SQL Server Express**.
 
 ---
 
-## **4️⃣ Rodar o Backend**
-### 📌No CMD vá para a pasta Back-End e estando nela execute:  
+## **4️⃣ Run the Backend**
+
+### 📌 In CMD go to the Back-End folder and run:
+
 ```sh
 dotnet restore
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 dotnet run
 ```
-Isso fará a reconstrução do projeto, criará o banco de dados no SQL Server local e rodará o backend.
+
+This will rebuild the project, create the database in your local SQL Server, and run the backend.
 
 ---
 
-## **5️⃣ Rodar o Frontend**
-Agora ainda no CMD, navegue até a pasta fruit-app dentro da pasta Front-End, e estando lá dentro execute os comandos:  
+## **5️⃣ Run the Frontend**
+
+Now, still in CMD, navigate to the fruit-app folder inside Front-End, and run:
+
 ```sh
 npm install
 npm run dev
 ```
-Isso instalará as dependencias e iniciará o frontend.
+
+This will install the dependencies and start the frontend.
 
 ---
 
-Se **tudo estiver rodando, e o front estiver aparecendo sem erros**, seu projeto foi configurado com sucesso! 🚀🎉
+If **everything is running, and the frontend appears without errors**, your project is set up successfully! 🚀🎉
 
 ---
 
-# **🔥 Resumo das Comandos**
+# **🔥 Summary of Commands**
+
 ```sh
-# Clonar o projeto
+# Clone the project
 git clone https://github.com/TH3USS/FruitList.git
 
-# Rodar Backend
+# Run Backend
 dotnet restore
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 dotnet run
 
-# Rodar Frontend
+# Run Frontend
 npm install
 npm run dev
 ```
 
 ---
 
-# **📌 Tecnologias e Ferramentas Utilizadas**  
+# **📌 Technologies and Tools Used**
 
-## **1️⃣ Frontend - React.js**  
-O frontend foi desenvolvido utilizando **React.js**, uma biblioteca JavaScript para criação de interfaces modernas e dinâmicas.  
+## **1️⃣ Frontend - React.js**
 
-### 🔹 **Principais Tecnologias no Frontend**  
-✅ **React.js** → Biblioteca para criação de interfaces reativas.  
-✅ **Vite** → Ferramenta para um ambiente de desenvolvimento rápido.  
-✅ **CSS** → Estilização da aplicação.  
-✅ **Fetch API / Axios** → Comunicação com o backend via API REST.  
+The frontend was developed using **React.js**, a JavaScript library for building modern and dynamic interfaces.
 
----
+### 🔹 **Main Frontend Technologies**
 
-## **2️⃣ Backend - .NET 8 (C#)**  
-Para o backend foi desenvolvido uma API que faz a comunicação entre o banco de dados e a interface gráfica utilizando **ASP.NET Core 8**, um framework robusto para criação de APIs performáticas e seguras.  
-
-### 🔹 **Principais Tecnologias no Backend**  
-✅ **ASP.NET Core 8** → Framework para construção de APIs.  
-✅ **Entity Framework Core** → ORM para manipulação do banco de dados.  
-✅ **Swagger (Swashbuckle)** → Documentação interativa da API.  
+✅ **React.js** → Library for building reactive interfaces.
+✅ **Vite** → Tool for a fast development environment.
+✅ **CSS** → Application styling.
+✅ **Fetch API / Axios** → Communication with backend via REST API.
 
 ---
 
-## **3️⃣ Banco de Dados - SQL Server**  
-O projeto utiliza **SQL Server**, um banco de dados relacional da Microsoft.  
+## **2️⃣ Backend - .NET 8 (C#)**
 
-### 🔹 **Ferramentas e Recursos Usados**  
-✅ **SQL Server Express** → Versão gratuita do banco.  
-✅ **SQL Server Management Studio (SSMS)** → Ferramenta para gerenciar o banco.  
-✅ **Entity Framework Core (Migrations)** → Criação e gerenciamento do banco.  
+For the backend, an API was developed to communicate between the database and the user interface using **ASP.NET Core 8**, a robust framework for building performant and secure APIs.
 
----
+### 🔹 **Main Backend Technologies**
 
-## **5️⃣ Ferramentas Auxiliares**  
-Além das tecnologias principais, foram utilizadas algumas ferramentas para otimizar o desenvolvimento:  
-
-✅ **Git & GitHub** → Controle de versão e colaboração.  
-✅ **Visual Studio Code** → IDE para desenvolvimento do frontend.  
-✅ **Visual Studio** → IDE para desenvolvimento do backend.  
+✅ **ASP.NET Core 8** → Framework for building APIs.
+✅ **Entity Framework Core** → ORM for database management.
+✅ **Swagger (Swashbuckle)** → Interactive API documentation.
 
 ---
 
+## **3️⃣ Database - SQL Server**
 
-# **🚀 Conclusão**  
-O projeto utiliza **tecnologias modernas e eficientes**, garantindo **alta performance, escalabilidade e facilidade de manutenção**. Com a integração de **React no frontend, .NET no backend e SQL Server como banco de dados**, a aplicação entrega uma experiência fluida e confiável para os usuários.  
+The project uses **SQL Server**, a Microsoft relational database.
+
+### 🔹 **Tools and Resources Used**
+
+✅ **SQL Server Express** → Free version of the database.
+✅ **SQL Server Management Studio (SSMS)** → Tool to manage the database.
+✅ **Entity Framework Core (Migrations)** → Creation and management of the database.
+
+---
+
+## **5️⃣ Auxiliary Tools**
+
+Besides the main technologies, some tools were used to optimize development:
+
+✅ **Git & GitHub** → Version control and collaboration.
+✅ **Visual Studio Code** → IDE for frontend development.
+✅ **Visual Studio** → IDE for backend development.
+
+---
+
+# **🚀 Conclusion**
+
+The project uses **modern and efficient technologies**, ensuring **high performance, scalability, and ease of maintenance**. With the integration of **React on the frontend, .NET on the backend, and SQL Server as the database**, the application delivers a smooth and reliable user experience.
