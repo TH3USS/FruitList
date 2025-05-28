@@ -50,9 +50,9 @@ For the frontend, Vite was used to create the project.
 ## **1️⃣ Prerequisites**
 
 Before starting, you need to have installed on your system:
-✅ **.NET SDK** → [Download .NET](https://dotnet.microsoft.com/en-us/download)
-✅ **Node.js + npm** → [Download Node.js](https://nodejs.org/)
-✅ **Git** (to clone the project) → [Download Git](https://git-scm.com/downloads)
+✅ **.NET SDK** → [Download .NET](https://dotnet.microsoft.com/en-us/download)  
+✅ **Node.js + npm** → [Download Node.js](https://nodejs.org/)  
+✅ **Git** (to clone the project) → [Download Git](https://git-scm.com/downloads)  
 
 ---
 
@@ -131,10 +131,10 @@ The frontend was developed using **React.js**, a JavaScript library for building
 
 ### 🔹 **Main Frontend Technologies**
 
-✅ **React.js** → Library for building reactive interfaces.
-✅ **Vite** → Tool for a fast development environment.
-✅ **CSS** → Application styling.
-✅ **Fetch API / Axios** → Communication with backend via REST API.
+✅ **React.js** → Library for building reactive interfaces.  
+✅ **Vite** → Tool for a fast development environment.  
+✅ **CSS** → Application styling.  
+✅ **Fetch API / Axios** → Communication with backend via REST API.  
 
 ---
 
@@ -144,9 +144,9 @@ For the backend, an API was developed to communicate between the database and th
 
 ### 🔹 **Main Backend Technologies**
 
-✅ **ASP.NET Core 8** → Framework for building APIs.
-✅ **Entity Framework Core** → ORM for database management.
-✅ **Swagger (Swashbuckle)** → Interactive API documentation.
+✅ **ASP.NET Core 8** → Framework for building APIs.  
+✅ **Entity Framework Core** → ORM for database management.  
+✅ **Swagger (Swashbuckle)** → Interactive API documentation.  
 
 ---
 
@@ -156,9 +156,9 @@ The project uses **SQL Server**, a Microsoft relational database.
 
 ### 🔹 **Tools and Resources Used**
 
-✅ **SQL Server Express** → Free version of the database.
-✅ **SQL Server Management Studio (SSMS)** → Tool to manage the database.
-✅ **Entity Framework Core (Migrations)** → Creation and management of the database.
+✅ **SQL Server Express** → Free version of the database.  
+✅ **SQL Server Management Studio (SSMS)** → Tool to manage the database.  
+✅ **Entity Framework Core (Migrations)** → Creation and management of the database.  
 
 ---
 
@@ -166,9 +166,9 @@ The project uses **SQL Server**, a Microsoft relational database.
 
 Besides the main technologies, some tools were used to optimize development:
 
-✅ **Git & GitHub** → Version control and collaboration.
-✅ **Visual Studio Code** → IDE for frontend development.
-✅ **Visual Studio** → IDE for backend development.
+✅ **Git & GitHub** → Version control and collaboration.  
+✅ **Visual Studio Code** → IDE for frontend development.  
+✅ **Visual Studio** → IDE for backend development.  
 
 ---
 
